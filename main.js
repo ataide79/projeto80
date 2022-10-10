@@ -3,7 +3,7 @@ menuListArray = ["Pizza de calabresa","pizza 4 queijos","pizza Marguerita ","piz
 
 function addItem(){
 var htmldata;
-var img="<img id='im1' src='images/pizzaImg.png'>";
+var img="<img id='im1' src='pizzaImg.png'>";
 var item=document.getElementById("addItem").value;
 menuListArray.sort();
 htmldata=" ";
